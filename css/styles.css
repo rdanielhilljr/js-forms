@@ -1,0 +1,13 @@
+#letter {
+  margin: 5px;
+  width: 600px;
+  height: 800px;
+  border: 2px solid black;
+}
+.letterfield {
+  float: left;
+
+}
+.textarea {
+    height: 200px;
+}

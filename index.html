@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Letter Exercise</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Letter To Me!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input id="firstname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input id="lastname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="streetname">Street Name</label>
+            <input id="streetname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="cityname">City</label>
+            <input id="cityname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="statename">State</label>
+            <input id="statename" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="zipcode">Zip Code</label>
+            <input id="zipcode" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="message">Letter</label>
+            <input id="message" class="form-control textarea" type="text">
+          </div>
+          <div class="radio">
+            <h4>Select day of delivery</h4>
+            <label>
+              <input type="radio" name="day" value="Monday" checked>
+              Monday
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="day" value="Tuesday">
+              Tuesday
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="day" value="Wednesday">
+              Wednesday
+            </label>
+          </div>
+          <select class="form-control" id="delivery">
+            <option>Postal Service</option>
+            <option>E-mail</option>
+            <option>In Person</option>
+            <option>Raven</option>
+          </select>
+          <div class="form-group">
+            <label for="today">Today's Date</label>
+            <input id="today" class="form-control" type="date">
+          </div>
+          <div>
+            <label for="color">What color do you like?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+
+
+          <button type="submit" class="btn">Show Me The Letter!</button>
+        </form>
+
+
+
+        <div id="letter">
+          <h1>Letter</h1>
+          <div class="">
+            <p class="firstnameto"></p>
+          </div>
+          <div class="">
+            <p class="lastnameto"></p>
+          </div>
+          <div class="">
+            <p class="streetnameto"></p>
+          </div>
+          <div class="">
+            <p class="citynameto"></p>
+          </div>
+          <div class="">
+            <p class="statenameto"></p>
+          </div>
+          <div class="">
+            <p class="zipcodeto"></p>
+          </div>
+          <div class="">
+            <p class=""><em>This letter will be delivered on <span class="deliveryday"></span> via <span class="deliverymethod"></span></em></p>
+          </div>
+          <div class="">
+            <p class="todayis">Today's date is <span class="todaysDate"></span></p>
+          </div>
+          <div class="">
+            <p class="favColor">Your favorite color hex code is: <span class="favoriteColor"></span></p>
+          </div>
+
+          <h3 style="text-align: center;">To Do List</h3>
+          <div class="">
+            <p class="messageto"></p>
+          </div>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
